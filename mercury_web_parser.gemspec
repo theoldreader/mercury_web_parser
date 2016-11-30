@@ -14,6 +14,9 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
 
+  s.add_dependency 'faraday',            '>= 0.9'
+  s.add_dependency 'faraday_middleware', '>= 0.9'
+
   s.add_development_dependency 'danger'
   s.add_development_dependency 'danger-commit_lint'
   s.add_development_dependency 'rspec'

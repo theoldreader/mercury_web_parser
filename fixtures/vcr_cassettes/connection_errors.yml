@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://mercury.postlight.com/parser?url=http%3A%2F%2Fwww.google.com
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - MercuryWebParser Ruby Gem 0.1.0
+      X-api-key:
+      - '1234'
+  response:
+    status:
+      code: 401
+      message: 
+    headers:
+      content-length:
+      - '26'
+      content-type:
+      - application/json
+      date:
+      - Wed, 30 Nov 2016 03:43:36 GMT
+      via:
+      - 1.1 051be6c213d69e313cabc1e7eee2a118.cloudfront.net (CloudFront)
+      x-amz-cf-id:
+      - isOCPBGabdbNiXorBpblYgzAa4_BAsbjxzSKCt5SUpdajbSOeCP7rA==
+      x-amzn-errortype:
+      - UnauthorizedException
+      x-amzn-requestid:
+      - 2c7f96be-b6af-11e6-a859-2d8d278efab2
+      x-cache:
+      - Error from cloudfront
+      age:
+      - '0'
+      connection:
+      - close
+      server:
+      - BitBalloon
+    body:
+      encoding: UTF-8
+      string: '{"message":"Unauthorized"}'
+    http_version: 
+  recorded_at: Wed, 30 Nov 2016 03:43:36 GMT
+recorded_with: VCR 3.0.3

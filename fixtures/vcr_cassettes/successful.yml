@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://mercury.postlight.com/parser?url=https%3A%2F%2Fmedium.com%2F%40readability%2Fthe-readability-bookmarking-service-will-shut-down-on-september-30-2016-1641cc18e02b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - MercuryWebParser Ruby Gem 0.1.0
+      X-api-key:
+      - PvKK11D5fKtwj06eD0AevxAdUAWB1Ra3jTaeIgXE
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      access-control-allow-origin:
+      - "*"
+      content-length:
+      - '2706'
+      content-type:
+      - application/json
+      date:
+      - Wed, 30 Nov 2016 02:59:26 GMT
+      via:
+      - 1.1 631585eaa766d0d1b2a196fb1d81ea69.cloudfront.net (CloudFront)
+      x-amz-cf-id:
+      - yYv44_ZYseF8o8aqui50IgjeckqlcMizRdVqMZXCdX1vnrGH_1Q9iw==
+      x-amzn-requestid:
+      - 008b8373-b6a9-11e6-aff9-a322a87b8369
+      x-amzn-trace-id:
+      - Root=1-583e408d-aec2ea51a4d78b1f7da07c83
+      x-cache:
+      - Miss from cloudfront
+      age:
+      - '1'
+      connection:
+      - close
+      server:
+      - BitBalloon
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ0aXRsZSI6IlRoZSBSZWFkYWJpbGl0eSBib29rbWFya2luZyBzZXJ2aWNl
+        IHdpbGwgc2h1dCBkb3duIG9uIFNlcHRlbWJlciAzMCwgMjAxNi4iLCJjb250
+        ZW50IjoiPGRpdj48ZGl2IGNsYXNzPVwic2VjdGlvbi1jb250ZW50XCI+PGRp
+        diBjbGFzcz1cInNlY3Rpb24taW5uZXIgc2VjdGlvbkxheW91dC0taW5zZXRD
+        b2x1bW5cIj48cCBpZD1cIjI5YmFcIiBjbGFzcz1cImdyYWYgZ3JhZi0tcCBn
+        cmFmLWFmdGVyLS1oM1wiPkFmdGVyIG1vcmUgdGhhbiBmaXZlIHllYXJzIG9m
+        IG9wZXJhdGlvbiwgdGhlIFJlYWRhYmlsaXR5IGFydGljbGUgYm9va21hcmtp
+        bmcvcmVhZC1pdC1sYXRlciBzZXJ2aWNlIHdpbGwgYmUgc2h1dHRpbmcgZG93
+        biBhZnRlciA8c3Ryb25nIGNsYXNzPVwibWFya3VwLS1zdHJvbmcgbWFya3Vw
+        LS1wLXN0cm9uZ1wiPlNlcHRlbWJlciAzMCwgMjAxNjwvc3Ryb25nPi48L3A+
+        PHAgaWQ9XCJiMWQ1XCIgY2xhc3M9XCJncmFmIGdyYWYtLXAgZ3JhZi1hZnRl
+        ci0tcFwiPklmIHlvdSYjeDIwMTk7ZCBsaWtlIHRvIHNhdmUgeW91ciBib29r
+        bWFya3MsIHBsZWFzZSBmb2xsb3cgdGhlc2UgZGlyZWN0aW9ucyBiZWZvcmUg
+        PHN0cm9uZyBjbGFzcz1cIm1hcmt1cC0tc3Ryb25nIG1hcmt1cC0tcC1zdHJv
+        bmdcIj5TZXB0ZW1iZXIgMzAsIDIwMTY8L3N0cm9uZz4uIFlvdSBjYW4gZXhw
+        b3J0IHlvdXIgYm9va21hcmtzIGJ5IHZpc2l0aW5nIHlvdXIgVG9vbHMgcGFn
+        ZSwgc2Nyb2xsaW5nIGRvd24gdG8gdGhlIERhdGEgRXhwb3J0IHNlY3Rpb24s
+        IGFuZCBjbGlja2luZyB0aGUgRXhwb3J0IFlvdXIgRGF0YSBidXR0b24uIFlv
+        dSYjeDIwMTk7bGwgcmVjZWl2ZSBhbiBlbWFpbCBzb29uIGFmdGVyIHRoYXQg
+        Y29udGFpbnMgeW91ciBib29rbWFya3MuIFNpbWlsYXIgc2VydmljZXMgbGlr
+        ZSBJbnN0YXBhcGVyIHdpbGwgYWxsb3cgeW91IHRvIGltcG9ydCB5b3VyIGJv
+        b2ttYXJrcyBpbnRvIHRoZWlyIHNlcnZpY2UuPC9wPjxwIGlkPVwiNGMxY1wi
+        IGNsYXNzPVwiZ3JhZiBncmFmLS1wIGdyYWYtYWZ0ZXItLXBcIj48c3Ryb25n
+        IGNsYXNzPVwibWFya3VwLS1zdHJvbmcgbWFya3VwLS1wLXN0cm9uZ1wiPjxl
+        bSBjbGFzcz1cIm1hcmt1cC0tZW0gbWFya3VwLS1wLWVtXCI+V2hhdCBpZiBJ
+        IHVzZSB0aGUgUmVhZGFiaWxpdHkgUGFyc2VyIEFQST88L2VtPjwvc3Ryb25n
+        PjwvcD48cCBpZD1cIjYwOGVcIiBjbGFzcz1cImdyYWYgZ3JhZi0tcCBncmFm
+        LWFmdGVyLS1wXCI+VGhlIFJlYWRhYmlsaXR5IFBhcnNlciBBUEkgZm9yIGRl
+        dmVsb3BlcnMgd2lsbCBzaHV0IGRvd24gPHN0cm9uZyBjbGFzcz1cIm1hcmt1
+        cC0tc3Ryb25nIG1hcmt1cC0tcC1zdHJvbmdcIj5EZWNlbWJlciAxMCwgMjAx
+        Njwvc3Ryb25nPi4gSG93ZXZlciwgd2UmI3gyMDE5O3ZlIGdvdCBhIGdyZWF0
+        IGFsdGVybmF0aXZlIGZvciB5b3U6IHRoZSA8YSBocmVmPVwiaHR0cHM6Ly9t
+        ZXJjdXJ5LnBvc3RsaWdodC5jb20vXCIgY2xhc3M9XCJtYXJrdXAtLWFuY2hv
+        ciBtYXJrdXAtLXAtYW5jaG9yXCI+PHN0cm9uZyBjbGFzcz1cIm1hcmt1cC0t
+        c3Ryb25nIG1hcmt1cC0tcC1zdHJvbmdcIj5NZXJjdXJ5IFRvb2xraXQ8L3N0
+        cm9uZz48L2E+LjwvcD48cCBpZD1cIjFkZWJcIiBjbGFzcz1cImdyYWYgZ3Jh
+        Zi0tcCBncmFmLWFmdGVyLS1wXCI+U2luY2UgaXQgbGF1bmNoZWQgYXMgYSBz
+        aW1wbGUgYm9va21hcmtsZXQgaW4gMjAwOSwgdGhlIFJlYWRhYmlsaXR5IHBy
+        b2plY3QmI3gyMDE5O3MgaW1wYWN0IG9uIHJlYWRpbmcgb24gdGhlIHdlYiBh
+        bmQgYmV5b25kIGlzIHVuZGVuaWFibGUuIFdlIGFwcHJlY2lhdGUgeW91ciBs
+        b3lhbHR5IGFuZCBzdXBwb3J0IGZvciB0aGUgcGxhdGZvcm0gb3ZlciB0aGUg
+        eWVhcnMuPC9wPjxwIGlkPVwiZDBiNlwiIGNsYXNzPVwiZ3JhZiBncmFmLS1w
+        IGdyYWYtYWZ0ZXItLXBcIj5XZSB3ZWxjb21lIHlvdXIgcXVlc3Rpb25zIGF0
+        IDxhIGhyZWY9XCJtYWlsdG86Y29udGFjdCUyQnJpbEByZWFkYWJpbGl0eS5j
+        b21cIiBjbGFzcz1cIm1hcmt1cC0tYW5jaG9yIG1hcmt1cC0tcC1hbmNob3Jc
+        Ij5jb250YWN0K3JpbEByZWFkYWJpbGl0eS5jb208L2E+LjwvcD48cCBpZD1c
+        ImMwMjRcIiBjbGFzcz1cImdyYWYgZ3JhZi0tcCBncmFmLWFmdGVyLS1wIGdy
+        YWYtLWxhc3RcIj48ZW0gY2xhc3M9XCJtYXJrdXAtLWVtIG1hcmt1cC0tcC1l
+        bVwiPlRoZSBSZWFkYWJpbGl0eSBUZWFtPC9lbT48L3A+PC9kaXY+PC9kaXY+
+        PC9kaXY+IiwiYXV0aG9yIjoiUmVhZGFiaWxpdHkiLCJkYXRlX3B1Ymxpc2hl
+        ZCI6IjIwMTYtMDktMDJUMTg6NDM6NTkuODY0WiIsImxlYWRfaW1hZ2VfdXJs
+        IjpudWxsLCJkZWsiOm51bGwsIm5leHRfcGFnZV91cmwiOm51bGwsInVybCI6
+        Imh0dHBzOi8vbWVkaXVtLmNvbS9AcmVhZGFiaWxpdHkvdGhlLXJlYWRhYmls
+        aXR5LWJvb2ttYXJraW5nLXNlcnZpY2Utd2lsbC1zaHV0LWRvd24tb24tc2Vw
+        dGVtYmVyLTMwLTIwMTYtMTY0MWNjMThlMDJiIiwiZG9tYWluIjoibWVkaXVt
+        LmNvbSIsImV4Y2VycHQiOiJBZnRlciBtb3JlIHRoYW4gZml2ZSB5ZWFycyBv
+        ZiBvcGVyYXRpb24sIHRoZSBSZWFkYWJpbGl0eSBhcnRpY2xlIGJvb2ttYXJr
+        aW5nL3JlYWQtaXQtbGF0ZXIgc2VydmljZSB3aWxsIGJlIHNodXR0aW5nIGRv
+        d24gYWZ0ZXIgU2VwdGVtYmVyIDMw4oCmIiwid29yZF9jb3VudCI6MTUxLCJk
+        aXJlY3Rpb24iOiJsdHIiLCJ0b3RhbF9wYWdlcyI6MSwicmVuZGVyZWRfcGFn
+        ZXMiOjF9
+    http_version: 
+  recorded_at: Wed, 30 Nov 2016 02:59:26 GMT
+recorded_with: VCR 3.0.3

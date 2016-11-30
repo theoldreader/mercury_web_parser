@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://mercury.postlight.com/parser?url=http%3A%2F%2Fabc.go.com%2Frobots.txt
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - MercuryWebParser Ruby Gem 0.1.0
+      X-api-key:
+      - PvKK11D5fKtwj06eD0AevxAdUAWB1Ra3jTaeIgXE
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      access-control-allow-origin:
+      - "*"
+      content-length:
+      - '4'
+      content-type:
+      - application/json
+      date:
+      - Wed, 30 Nov 2016 03:47:28 GMT
+      via:
+      - 1.1 ea768b6198c0f73b6fb05e3625d27a5d.cloudfront.net (CloudFront)
+      x-amz-cf-id:
+      - 78gk1qd8sMcETNy4f0guFwWjvT4RZmMn0LqJPCgY3T7ED-jT1V5LCA==
+      x-amzn-requestid:
+      - b6e3e74a-b6af-11e6-8ccf-b3e2989761ed
+      x-amzn-trace-id:
+      - Root=1-583e4bd0-8c4ee867e61287c843a16623
+      x-cache:
+      - Miss from cloudfront
+      age:
+      - '0'
+      connection:
+      - close
+      server:
+      - BitBalloon
+    body:
+      encoding: UTF-8
+      string: 'null'
+    http_version: 
+  recorded_at: Wed, 30 Nov 2016 03:47:28 GMT
+recorded_with: VCR 3.0.3
