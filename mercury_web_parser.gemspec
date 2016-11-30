@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.summary        = 'A simple Ruby wrapper for the Mercury Web Parser API'
   s.authors        = ['Jim Fiorato']
   s.email          = 'mercury_web_parser@theoldreader.com'
-  s.homepage       = 'http://github.com/theoldreader/mercury-web-parser'
+  s.homepage       = 'http://github.com/theoldreader/mercury_web_parser'
   s.license        = 'MIT'
 
   s.files         = `git ls-files`.split("\n")
