@@ -2,12 +2,14 @@
 
 A simple Ruby wrapper for the [Mercury Web Parser API][mercury-url]
 
-[![Build Status][travis-badge]][travis] [![Code Climate][code-climate-badge]][code-climate]
+[![Gem Version][gem-version-badge]][gem-version] [![Build Status][travis-badge]][travis] [![Code Climate][code-climate-badge]][code-climate]
 
 [travis-badge]: https://travis-ci.org/theoldreader/mercury_web_parser.png
 [travis]: http://travis-ci.org/theoldreader/mercury_web_parser
 [code-climate-badge]: https://codeclimate.com/github/theoldreader/mercury_web_parser.png
 [code-climate]: https://codeclimate.com/github/theoldreader/mercury_web_parser
+[gem-version-badge]: https://badge.fury.io/rb/mercury_web_parser.png
+[gem-version]: https://badge.fury.io/rb/mercury_web_parser
 
 ## Installation
 Add this line to your application's Gemfile:
