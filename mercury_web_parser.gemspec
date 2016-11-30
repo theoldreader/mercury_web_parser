@@ -14,6 +14,8 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
 
+  s.required_ruby_version = '>= 2.0'
+
   s.add_dependency 'faraday',            '>= 0.9'
   s.add_dependency 'faraday_middleware', '>= 0.9'
 
